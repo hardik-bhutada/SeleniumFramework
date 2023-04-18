@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="5" passed="5" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2023-04-05T17:38:11 IST" name="All Test Suite" finished-at="2023-04-05T17:38:43 IST" duration-ms="31658">
+    <groups>
+      <group name="ErrorHandling">
+        <method signature="ErrorValidationsTest.verifyLoginError()[pri:0, instance:org.hardikb.tests.ErrorValidationsTest@6b09fb41]" name="verifyLoginError" class="org.hardikb.tests.ErrorValidationsTest"/>
+      </group> <!-- ErrorHandling -->
+      <group name="Purchase">
+        <method signature="SubmitOrderTest.submitOrder(java.util.HashMap)[pri:0, instance:org.hardikb.tests.SubmitOrderTest@19932c16]" name="submitOrder" class="org.hardikb.tests.SubmitOrderTest"/>
+      </group> <!-- Purchase -->
+    </groups>
+    <test started-at="2023-04-05T17:38:11 IST" name="Error Validations Test" finished-at="2023-04-05T17:38:32 IST" duration-ms="20593">
+      <class name="org.hardikb.tests.ErrorValidationsTest">
+        <test-method is-config="true" signature="launchApplication()[pri:0, instance:org.hardikb.tests.ErrorValidationsTest@6b09fb41]" started-at="2023-04-05T17:38:11 IST" name="launchApplication" finished-at="2023-04-05T17:38:23 IST" duration-ms="12084" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchApplication -->
+        <test-method signature="productErrorValidations()[pri:0, instance:org.hardikb.tests.ErrorValidationsTest@6b09fb41]" started-at="2023-04-05T17:38:23 IST" name="productErrorValidations" finished-at="2023-04-05T17:38:27 IST" duration-ms="3292" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- productErrorValidations -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:org.hardikb.tests.ErrorValidationsTest@6b09fb41]" started-at="2023-04-05T17:38:27 IST" name="tearDown" finished-at="2023-04-05T17:38:27 IST" duration-ms="268" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="launchApplication()[pri:0, instance:org.hardikb.tests.ErrorValidationsTest@6b09fb41]" started-at="2023-04-05T17:38:27 IST" name="launchApplication" finished-at="2023-04-05T17:38:31 IST" duration-ms="4144" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchApplication -->
+        <test-method signature="verifyLoginError()[pri:0, instance:org.hardikb.tests.ErrorValidationsTest@6b09fb41]" started-at="2023-04-05T17:38:31 IST" name="verifyLoginError" finished-at="2023-04-05T17:38:32 IST" duration-ms="572" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyLoginError -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:org.hardikb.tests.ErrorValidationsTest@6b09fb41]" started-at="2023-04-05T17:38:32 IST" name="tearDown" finished-at="2023-04-05T17:38:32 IST" duration-ms="150" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- org.hardikb.tests.ErrorValidationsTest -->
+    </test> <!-- Error Validations Test -->
+    <test started-at="2023-04-05T17:38:11 IST" name="Submit Order Test" finished-at="2023-04-05T17:38:43 IST" duration-ms="31658">
+      <class name="org.hardikb.tests.SubmitOrderTest">
+        <test-method is-config="true" signature="launchApplication()[pri:0, instance:org.hardikb.tests.SubmitOrderTest@19932c16]" started-at="2023-04-05T17:38:12 IST" name="launchApplication" finished-at="2023-04-05T17:38:23 IST" duration-ms="11640" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchApplication -->
+        <test-method signature="submitOrder(java.util.HashMap)[pri:0, instance:org.hardikb.tests.SubmitOrderTest@19932c16]" started-at="2023-04-05T17:38:23 IST" name="submitOrder" data-provider="getData" finished-at="2023-04-05T17:38:29 IST" duration-ms="5380" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{password=Selenium@10, email=seleniumframework@gmail.com, productName=ZARA COAT 3}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- submitOrder -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:org.hardikb.tests.SubmitOrderTest@19932c16]" started-at="2023-04-05T17:38:29 IST" name="tearDown" finished-at="2023-04-05T17:38:29 IST" duration-ms="227" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="launchApplication()[pri:0, instance:org.hardikb.tests.SubmitOrderTest@19932c16]" started-at="2023-04-05T17:38:29 IST" name="launchApplication" finished-at="2023-04-05T17:38:32 IST" duration-ms="3044" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchApplication -->
+        <test-method signature="submitOrder(java.util.HashMap)[pri:0, instance:org.hardikb.tests.SubmitOrderTest@19932c16]" started-at="2023-04-05T17:38:32 IST" name="submitOrder" data-provider="getData" finished-at="2023-04-05T17:38:38 IST" duration-ms="6176" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{password=Selenium@10, email=seleniumframework@gmail.com, productName=ADIDAS ORIGINAL}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- submitOrder -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:org.hardikb.tests.SubmitOrderTest@19932c16]" started-at="2023-04-05T17:38:38 IST" name="tearDown" finished-at="2023-04-05T17:38:38 IST" duration-ms="165" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="launchApplication()[pri:0, instance:org.hardikb.tests.SubmitOrderTest@19932c16]" started-at="2023-04-05T17:38:38 IST" name="launchApplication" finished-at="2023-04-05T17:38:41 IST" duration-ms="2805" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchApplication -->
+        <test-method signature="orderHistoryTest()[pri:0, instance:org.hardikb.tests.SubmitOrderTest@19932c16]" started-at="2023-04-05T17:38:41 IST" name="orderHistoryTest" finished-at="2023-04-05T17:38:43 IST" depends-on-methods="org.hardikb.tests.SubmitOrderTest.submitOrder" duration-ms="1534" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- orderHistoryTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:org.hardikb.tests.SubmitOrderTest@19932c16]" started-at="2023-04-05T17:38:43 IST" name="tearDown" finished-at="2023-04-05T17:38:43 IST" duration-ms="159" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- org.hardikb.tests.SubmitOrderTest -->
+    </test> <!-- Submit Order Test -->
+  </suite> <!-- All Test Suite -->
+</testng-results>
